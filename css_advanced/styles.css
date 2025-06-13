@@ -117,3 +117,40 @@ main > section:first-of-type p {
   font-size: 14px;
   color: #777;
 }
+/* styles.css */
+
+/* ========== QUOTE SECTION ========== */
+.quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 80px 20px;
+  background-color: #C271FF; /* Based on Figma background */
+  color: white;
+}
+
+.quote img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+.quote blockquote {
+  font-size: 22px;
+  font-style: italic;
+  line-height: 1.5;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.quote h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.quote p {
+  font-size: 14px;
+  margin: 0;
+}
