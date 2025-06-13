@@ -154,3 +154,69 @@ main > section:first-of-type p {
   font-size: 14px;
   margin: 0;
 }
+/* 4. Videos List Section */
+.video-list {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+
+.video-card {
+  width: 23%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.video-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.video-card h3 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+}
+
+.video-card p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.author img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.author h4 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.stars {
+  display: flex;
+  gap: 5px;
+  color: #ffc107; /* Yellow stars */
+  margin-bottom: 10px;
+}
+
+.duration {
+  font-size: 12px;
+  color: #888;
+  margin-top: auto;
+}
