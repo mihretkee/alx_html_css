@@ -1,0 +1,19 @@
+/* Pentagon shape using clip-path */
+.pentagon {
+  width: 60px;
+  height: 60px;
+  background-color: var(--color-primary);
+  clip-path: polygon(
+    50% 0%,
+    100% 38%,
+    82% 100%,
+    18% 100%,
+    0% 38%
+  );
+  margin: 0 auto var(--spacing-small);
+  transition: transform 0.3s ease;
+}
+
+.pentagon:hover {
+  transform: scale(1.1) rotate(5deg);
+}
