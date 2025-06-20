@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Headphones Landing Page - Contact Us</title>
+  <link rel="stylesheet" href="3-styles.css" />
+  <link rel="stylesheet" href="fonts/holberton.css" />
+</head>
+<body>
+  <!-- Header / Hero Section -->
+  <header class="header">
+    <div class="container">
+      <h1 class="header__title">Building a web page the right way, is not easy - except if you put in place strong foundations:</h1>
+      <p class="header__subtitle">Reset CSS styling, use variables, simple CSS selectors, avoid super specific selectors, and keep HTML simple.</p>
+      <a href="#what-we-do" class="btn btn-primary">What We Do</a>
+    </div>
+  </header>
+
+  <!-- What we do Section -->
+  <section class="what-we-do container" id="what-we-do">
+    <h2 class="section-title">What we do...</h2>
+    <div class="services">
+      <article class="service">
+        <i class="icon-holberton icon1" aria-hidden="true"></i>
+        <h3 class="service-title">Innovative Design</h3>
+        <p class="service-description">
+          We create modern, functional designs that provide great user experience.
+        </p>
+      </article>
+      <article class="service">
+        <i class="icon-holberton icon2" aria-hidden="true"></i>
+        <h3 class="service-title">Quality Products</h3>
+        <p class="service-description">
+          Our products are built with top-notch materials and craftsmanship.
+        </p>
+      </article>
+      <article class="service">
+        <i class="icon-holberton icon3" aria-hidden="true"></i>
+        <h3 class="service-title">Customer Support</h3>
+        <p class="service-description">
+          We provide 24/7 customer support to assist you whenever needed.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Our results Section -->
+  <section class="our-results container" id="our-results">
+    <h2 class="section-title">Our results</h2>
+    <div class="results">
+      <article class="result">
+        <i class="icon-holberton icon4" aria-hidden="true"></i>
+        <h3 class="result-number">120+</h3>
+        <p class="result-description">Projects completed successfully</p>
+      </article>
+      <article class="result">
+        <i class="icon-holberton icon5" aria-hidden="true"></i>
+        <h3 class="result-number">50K</h3>
+        <p class="result-description">Satisfied customers worldwide</p>
+      </article>
+      <article class="result">
+        <i class="icon-holberton icon6" aria-hidden="true"></i>
+        <h3 class="result-number">10</h3>
+        <p class="result-description">Years of experience in the industry</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section class="contact container" id="contact">
+    <h2 class="section-title">Contact us</h2>
+    <form action="#" method="post" class="contact-form" novalidate>
+      <div class="form-group">
+        <label for="name">Name <span aria-hidden="true">*</span></label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your full name"
+          required
+          minlength="3"
+          pattern="[A-Za-z\s]+"
+          title="Name must contain letters and spaces only."
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email <span aria-hidden="true">*</span></label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="your.email@example.com"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message <span aria-hidden="true">*</span></label>
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          placeholder="Write your message here..."
+          required
+          minlength="10"
+        ></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+  </section>
+</body>
+</html>
